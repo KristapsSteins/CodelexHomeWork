@@ -1,0 +1,40 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "The Jungle: A World of Beauty and Diversity",
+        "Content": "The jungle is a diverse and thriving ecosystem filled with unique species of flora and fauna. From jaguars to toucans, the dense forests and lush vegetation provide a perfect habitat for exotic and endangered animals. Despite its beauty, the jungle is under threat from deforestation and habitat destruction, putting many species at risk of extinction.",
+        "image": "https://secretcompass.com/wp-content/uploads/2018/01/Jungle-Rot.jpg"
+      },
+      {
+        "id": 2,
+        "title":"The Amazon Rainforest: A Haven for Biodiversity",
+        "Content": "The Amazon rainforest is the largest and most diverse jungle in the world, home to an estimated 10% of all known species on Earth. From giant river otters to jaguars, the Amazon is a unique and vital ecosystem, but it is also under threat from deforestation and other human activities.",
+        "image": "https://media.cntraveller.com/photos/611becca628f4910ed10222d/16:9/w_2992,h_1683,c_limit/gettyimages-1044285108.jpg"
+      },
+      {
+        "id": 3,
+        "title": "The Borneo Rainforest: A Hidden World of Wonders",
+        "Content": "The Borneo rainforest is one of the oldest and most diverse jungles in the world, home to many unique and endangered species, such as the orangutan and the clouded leopard. Despite its beauty, the Borneo rainforest is also under threat from deforestation and other human activities, which threaten to destroy this unique and vital ecosystem.",
+        "image": "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/Coverstory_GettyImages-569909421_HR_WEB.jpg?w=1600&h=900"
+      },
+      {
+        "id": 4,
+        "title": "The Congo Rainforest: A Heart of Darkness",
+        "Content": "The Congo rainforest is one of the largest and most mysterious jungles in the world, home to many exotic and elusive species, such as gorillas and forest elephants. Despite its richness, the Congo rainforest is also facing many challenges, such as deforestation, poaching, and illegal hunting, which threaten to destroy this vital and unique ecosystem.",
+        "image": "https://files.worldwildlife.org/wwfcmsprod/images/Luilaka_River_Salonga_National_Park/story_full_width/8gzwbmgfu0_Medium_WW243241.jpg"
+      },
+      {
+        "id": 5,
+        "title": "The Rainforests of Madagascar: A Biodiverse Wonderland",
+        "Content": "The rainforests of Madagascar are home to many unique and exotic species, such as lemurs and fossas, which are found nowhere else on Earth. Despite its beauty, the rainforests of Madagascar are facing many challenges, including deforestation and habitat destruction, which threaten to destroy this diverse and vibrant ecosystem.",
+        "image": "https://cdn.naturettl.com/wp-content/uploads/2016/07/22014455/DSC8385.jpg"
+      },
+      {
+        "id": 6,
+        "title": "The Daintree Rainforest: An Ancient Ecosystem",
+        "Content": "The Daintree rainforest is one of the oldest and most diverse jungles in the world, home to many unique and ancient species, such as the cassowary and the tree kangaroo. Despite its age, the Daintree rainforest is still under threat from deforestation and other human activities, which threaten to destroy this valuable and vital ecosystem.",
+        "image": "https://www.daintree-ecolodge.com.au/wp-content/uploads/2018/03/5abdeb628c44ffa14993433d-1523413512038-Mossman-Gorge.jpg"
+      }
+    ]
+  }

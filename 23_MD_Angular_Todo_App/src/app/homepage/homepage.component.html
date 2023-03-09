@@ -1,0 +1,28 @@
+<div class="homepage-container">
+    <div class="services">
+      <div class="services__title">
+        <h2>Services</h2>
+      </div>
+      <div class="service" 
+        *ngFor="let service of services; index as i" 
+        (click)="toggleService(i)" 
+        [class.selected]="service.selected"
+        >
+        <div>
+          {{service.name}}
+        </div>
+        <div>
+          ${{service.price}}
+        </div>
+      </div>
+      <hr>
+      <div class="services__total">
+        <div>
+          Total:
+        </div>
+        <div>
+          ${{total}}
+        </div>
+      </div>
+    </div>
+  </div>

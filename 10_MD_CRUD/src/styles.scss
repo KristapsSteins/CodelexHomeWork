@@ -1,0 +1,108 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: rgb(36, 35, 35);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(36, 35, 35);
+  border: none;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+h5 {
+  color: #fff;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.card__animal__img {
+  width: 100%;
+  border-radius: 16px;
+  background: url('https://icon-library.com/images/image-loading-icon/image-loading-icon-12.jpg');
+}
+
+.card__animal {
+  max-width: 365px;
+  padding: 20px;
+  line-height: 1.4;
+  color: #fff;
+  background-color: rgb(56, 56, 56);
+  border-radius: 16px;
+}
+
+.paragraph {
+  color: #fff;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+  border: none;
+}
+
+.button__btn {
+  padding: 10px 40px;
+  color: #fff;
+  background-color: rgb(115, 115, 116);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.button__btn:hover {
+  background-color: rgb(180, 180, 180);;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+input {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.addButton {
+  display: flex;
+  color: #fff;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+textarea {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 16px;
+  border: 1px solid black;
+  height: 200px;
+}

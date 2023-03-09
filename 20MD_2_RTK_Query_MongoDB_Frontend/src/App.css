@@ -1,0 +1,101 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(203, 236, 210);
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .hero {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+
+  .animal img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .animal_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .add_button {
+    font-style: 700;
+    border-radius: 5px;
+    background-color: rgb(150, 216, 155);
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .add_button:hover {
+    background-color: rgb(70, 137, 153);
+  }
+
+  .add_label {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    cursor: pointer;
+  }
+
+  .add_label input {
+    border-radius: 5px;
+    border: none;
+  }
+
+  .button_box {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .delete_btn {
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(135, 204, 141);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+  }
+
+
+
+
+

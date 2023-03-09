@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(168, 186, 202);
+}
+
+.container {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgb(203, 236, 210);
+  border-radius: 10px;
+  padding: 0px 20px;
+}
+
+.header {
+  margin: 20px 0px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.add_label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.add_label input {
+  border-radius: 5px;
+  border: none;
+}
+
+input:hover {
+  opacity: 0.7;
+}
+
+.add_select {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add_select select {
+  border-radius: 5px;
+}
+
+.button_box {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.add_button {
+  font-style: 700;
+  border-radius: 5px;
+  background-color: rgb(150, 216, 155);
+  margin-top: 10px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add_button:hover {
+  background-color: rgb(70, 137, 153);
+}
+
+table {
+  background-color: #f5f4c6;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 0px;
+  font-size: 25px;
+}
+
+img {
+ width: 100%;
+}
+
+.animal_table {
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.filter_box {
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-style: italic;
+  border-radius: 5px;
+  background-color: rgb(135, 204, 141);
+  margin-top: 10px;
+  border: none;
+}
+
+.filter_select {
+  cursor: pointer;
+  font-style: italic;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(135, 204, 141);
+}
+
+td.delete_box {
+  width: 50px;
+}
+
+.delete_btn {
+  width: 80px;
+  border-radius: 20px;
+  background-color: rgb(135, 204, 141);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}

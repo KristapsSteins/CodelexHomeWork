@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Box sizing rules */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+.hide { 
+  display: none;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 150px solid transparent;
+  border-top: 0;
+  border-bottom: 300px solid red;
+}
+
+th {
+  cursor: pointer;
+}

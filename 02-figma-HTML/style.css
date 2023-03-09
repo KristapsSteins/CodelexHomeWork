@@ -1,0 +1,993 @@
+
+.hero-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+.product-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FF7235;
+    border-radius: 0px;
+}
+
+.nav-top-box {
+    position: absolute;
+    width: 1109px;
+    height: 48px;
+    left: 400px;
+    top: 57px;
+}
+
+.nav-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 1114px;
+    top: 57px;
+
+    background: #FFFFFF;
+    /* Main color */
+
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+
+}
+
+
+.nav-button-text {
+    position: absolute;
+    width: 125px;
+    height: 17px;
+    left: 20px;
+    top: 15px;
+    
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    /* identical to box height, or 17px */
+    
+    
+    /* Main color */
+    
+    color: #FF7235;
+}
+
+.navbar-box {
+    position: absolute;
+    width: 385px;
+    height: 17px;
+    left: 528px;
+    top: 72px;
+}
+li {
+
+    display: inline;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    /* identical to box height, or 17px */
+
+
+    /* Dark */
+
+    color: #292830;
+  }
+
+  .logo-box {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    left: 165px;
+    top: 61px;
+  }
+
+  .logo-box-text {
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 50px;
+    top: 10px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 95%;
+    /* identical to box height, or 22px */
+
+
+    /* Dark */
+
+    color: #292830;
+  }
+
+  .logo-icon-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 165px;
+    top: 61px;
+  }
+
+  .logo-icon-box-text {
+    position: absolute;
+    width: 13px;
+    height: 23px;
+    left: 179px;
+    top: 68px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 95%;
+    /* identical to box height, or 23px */
+
+
+    color: #FFFFFF;
+
+  }
+
+  .elements-box {
+    position: absolute;
+    width: 1108.2px;
+    height: 478px;
+    left: 165px;
+    top: 211px;
+    
+  }
+
+  .ilustration-box {
+    position: absolute;
+    width: 538.2px;
+    height: 478px;
+    left: 570px;
+    top: 0px;
+  }
+
+  .elements-text-box {
+    position: absolute;
+    width: 540px;
+    height: 462px;
+    left: 0px;
+    top: 10px;
+  }
+
+  .elements-title-bottom-box {
+    position: absolute;
+    width: 498px;
+    height: 75px;
+    left: 0px;
+    top: 387px;
+  }
+
+.elements-title-bottom-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+
+    /* Main color */
+
+    background: #FF7235;
+    border-radius: 8px;
+}
+
+.elements-title-bottom-button-text {
+    position: absolute;
+    width: 249px;
+    height: 39px;
+    left: 300px;
+    top: 50%;
+
+    /* Sub-title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+.elements-title-box {
+    position: absolute;
+    width: 540px;
+    height: 347px;
+    left: 0px;
+    top: 0px;
+}
+
+.elements-title-sm-text {
+    position: absolute;
+    width: 540px;
+    height: 39px;
+    left: 0px;
+    top: 308px;
+
+    /* Sub-title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    /* Light */
+
+    color: #BDBDBD;
+}
+
+.elements-title-lg-text {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    left: 0px;
+    top: 0px;
+
+    /* Title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    /* or 96px */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.brands-box {
+    position: absolute;
+    width: 1109.7px;
+    height: 40px;
+    left: 165px;
+    top: 794px;
+}
+
+.product-image-box {
+    position: absolute;
+    width: 1110px;
+    height: 625px;
+    left: 0px;
+    top: 87px;
+    
+}
+
+.product-img5 {
+    position: absolute;
+    width: 1110px;
+    height: 625px;
+    left: 165px;
+    top: 0px;
+
+    background: url(image5.png);
+    border-radius: 32px 32px 0px 0px;
+}
+
+.product-blob-box {
+    position: absolute;
+    width: 1440px;
+    height: 712px;
+    left: 0px;
+    top: 0px;
+
+    opacity: 0.8;
+}
+
+.product-blob-vector1-box {
+    position: absolute;
+    width: 598.15px;
+    height: 661.06px;
+    left: 1024px;
+    top: 0px;
+
+}
+
+.product-blob-vector2-box {
+    position: absolute;
+    width: 644.61px;
+    height: 537.21px;
+    left: -0px;
+    top: 287px;
+}
+
+.feature1-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.feature1-ilustrator-box {
+    position: absolute;
+    left: 51.11%;
+    right: 11.46%;
+    top: 23.54%;
+    bottom: 23.65%;
+}
+
+.feature1-text-box {
+    position: absolute;
+    width: 540px;
+    height: 537px;
+    left: 165px;
+    top: 142px;
+}
+
+.feature1-text-alwaysonline {
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Light */
+
+    color: #BDBDBD;
+}
+
+.feature1-text-real-time {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    left: 0px;
+    top: 60px;
+
+    /* Title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    /* or 96px */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.feature1-text-tellus-lacus {
+    position: absolute;
+    width: 540px;
+    height: 117px;
+    left: 0px;
+    top: 372px;
+
+    /* Sub-title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+
+    /* Light */
+
+    color: #BDBDBD;
+}
+
+.feature1-text-button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 152px;
+    height: 24px;
+    left: 0px;
+    top: 513px;
+}
+
+.feature2-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.feature2-ilustrator-box {
+    position: absolute;
+    left: 11.6%;
+    right: 50.9%;
+    top: 23.66%;
+    bottom: 23.71%;
+}
+
+.feature2-text-box {
+    position: absolute;
+    width: 540px;
+    height: 537px;
+    left: 735px;
+    top: 142px;
+}
+
+.productfeatures-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.productfeatures-text-box {
+    position: absolute;
+    width: 1110px;
+    height: 192px;
+    left: 165px;
+    top: 139px;
+}
+
+.productfeatures-lg-text-box {
+    position: absolute;
+    width: 730px;
+    height: 192px;
+    left: 165px;
+    top: 0px;
+
+    /* Title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    /* or 96px */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.productfeatures-sm-text-box {
+    position: absolute;
+    width: 350px;
+    height: 156px;
+    left: 925px;
+    top: 0px;
+
+    /* Sub-title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+
+    /* Light */
+
+    color: #BDBDBD;
+}
+
+.productfeatures-cards-box {
+    position: absolute;
+    width: 1110px;
+    height: 350px;
+    left: 165px;
+    top: 411px;
+}
+
+.productfeatures-box-card1-box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 165px;
+    top: 0px;
+}
+
+.productfeatures-box-card2-box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 480px;
+    top: -55px;
+}
+.productfeatures-box-card3-box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 925px;
+    top: 0px;
+}
+
+.alwaysonline-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.alwaysonline-text-box {
+    position: absolute;
+    width: 1110px;
+    height: 72px;
+    left: 165px;
+    top: 124px;
+}
+
+.alwaysonline-text {
+    position: absolute;
+    width: 1110px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.alwaysonline-cards-box {
+    position: absolute;
+    width: 1110px;
+    height: 500px;
+    left: 165px;
+    top: 276px;
+}
+
+.alwaysonline-cards-border-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Background */
+
+    background: #FFFFFF;
+    border: 1px solid #434141;
+    border-radius: 12px;
+}
+
+.alwaysonline-card1-box {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+}
+
+.alwaysonline-card1-group3-box {
+    position: absolute;
+    left: 11.43%;
+    right: 32.57%;
+    top: 8.2%;
+    bottom: 12%;
+}
+
+.alwaysonline-card1-group3-icon-box {
+    position: absolute;
+    left: 11.43%;
+    right: 81.71%;
+    top: 8.2%;
+    bottom: 87%;
+}
+
+.alwaysonline-card1-group3-title-box {
+    position: absolute;
+    left: 11.43%;
+    right: 1.43%;
+    top: 17.8%;
+    bottom: 71.8%;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.alwaysonline-card1-group3-feature-box {
+    position: absolute;
+    left: 11.43%;
+    right: 32.57%;
+    top: 33%;
+    bottom: 46.4%;
+}
+
+.alwaysonline-card1-group3-price-box {
+    position: absolute;
+    left: 11.43%;
+    right: 50.29%;
+    top: 58.4%;
+    bottom: 30%;
+}
+
+.alwaysonline-card1-group3-button-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 11.43%;
+    right: 49.71%;
+    top: 78%;
+    bottom: 12%;
+
+    border-radius: 8px;
+}
+
+.alwaysonline-card2-box {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 380px;
+    top: 0px;
+}
+
+.alwaysonline-card2-group3-icon-box {
+    position: absolute;
+    left: 11.43%;
+    right: 81.71%;
+    top: 8.2%;
+    bottom: 87%;
+}
+
+.alwaysonline-card2-group3-title-box {
+    position: absolute;
+    left: 11.43%;
+    right: 1.43%;
+    top: 17.8%;
+    bottom: 71.8%;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.alwaysonline-card2-group3-feature-box {
+    position: absolute;
+    left: 11.43%;
+    right: 32.57%;
+    top: 33%;
+    bottom: 46.4%;
+}
+
+.alwaysonline-card2-group3-price-box {
+    position: absolute;
+    left: 11.43%;
+    right: 50.29%;
+    top: 58.4%;
+    bottom: 30%;
+}
+
+.alwaysonline-card2-group3-button-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 11.43%;
+    right: 49.71%;
+    top: 78%;
+    bottom: 12%;
+
+    border-radius: 8px;
+}
+
+.alwaysonline-card3-box {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 760px;
+    top: 0px;
+}
+
+.testimonial-box {
+    display: inline-block;
+    position: relative;
+    width: 1870px;
+    height: 800px;
+}
+
+.testimonial-content-box {
+    position: absolute;
+    width: 1870px;
+    height: 558px;
+    left: 0px;
+    top: 121px;
+}
+
+.testimonial-content-title-box {
+    position: absolute;
+    width: 920px;
+    height: 192px;
+    left: 300px;
+    top: 50px;
+
+    /* Title */
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    /* or 96px */
+
+    text-align: center;
+
+    /* Dark */
+
+    color: #292830;
+
+}
+
+.testimonial-content-cards-box {
+    position: absolute;
+    width: 1870px;
+    height: 250px;
+    left: 0px;
+    top: 300px;
+}
+
+.testimonial-content-slider-box {
+    position: absolute;
+    width: 92px;
+    height: 12px;
+    left: 36%;
+    top: 600px;
+}
+
+.banner-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 750px;
+    background: #FF7235;
+}
+
+.banner-ilustrator1-box {
+    position: absolute;
+    left: 61px;
+    top: 335px;
+}
+.banner-ilustrator-layer10-box {
+    position: absolute;
+    left: 35.83%;
+    right: 32.57%;
+    top: 44.67%;
+    bottom: 12.37%;
+}
+
+.banner-ilustrator2-box {
+    position: absolute;
+    left: 911px;
+    top: 317px;
+}
+
+.banner-ilustrator-layer4-box {
+    position: absolute;
+    left: 63.26%;
+    right: 5.83%;
+    top: 42.27%;
+    bottom: 12.46%;
+}
+
+.banner-title-text {
+    position: absolute;
+    width: 920px;
+    height: 324px;
+    left: 260px;
+    top: 120px;
+}
+
+.banner-demo-button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 213px;
+    height: 60px;
+    left: 330px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.banner-sm-text {
+    position: absolute;
+    width: 920px;
+    height: 36px;
+    left: 260px;
+    top: 288px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.banner-lg-text {
+    position: absolute;
+    width: 920px;
+    height: 144px;
+    left: 260px;
+    top: 120px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    /* or 72px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer-box {
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 530px;
+}
+
+.footer-top-box {
+    position: absolute;
+    width: 1109px;
+    height: 277px;
+    left: 165px;
+    top: 80px;
+}
+
+.footer-top-logo-box {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    left: 165px;
+    top: 81px;
+    
+}
+
+.footer-top-links-box {
+    position: absolute;
+    width: 71px;
+    height: 277px;
+    left: 284px;
+    top: 0px;
+}
+
+.footer-top-legal-box {
+    position: absolute;
+    width: 154px;
+    height: 203px;
+    left: 478px;
+    top: 0px;
+}
+
+.footer-top-newsletter-box {
+    position: absolute;
+    width: 349px;
+    height: 208px;
+    left: 760px;
+    top: 0px;
+}
+
+.footer-line {
+    position: absolute;
+    width: 1109px;
+    height: 0px;
+    left: 165px;
+    top: 397px;
+
+    border: 1px solid rgba(189, 189, 189, 0.2);
+}
+
+.footer-bottom-box {
+    position: absolute;
+    width: 1111px;
+    height: 23px;
+    left: 162px;
+    top: 417px;
+}
+
+.footer-bottom-group6-box {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    left: 1189px;
+    top: 0px;
+}
+
+.footer-bottom-copyright-box {
+    position: absolute;
+    width: 154px;
+    height: 23px;
+    left: 470px;
+    top: 0px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #292830;
+}
+
+.footer-bottom-contact-box {
+    position: absolute;
+    width: 185px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+      <div class="container">
+        <div class="columns is-justify-content-center pt-6 pb-6">
+          <h1 class="is-size-2 has-text-weight-bold">My Country List</h1>
+      </div>
+      <div class="columns is-justify-content-space-around pb-3">
+        <div class="field js-country-search">
+          <label for="search" class="label">Country name:</label>
+          <input class="input" type="search" id="search" placeholder="Write the country">
+        </div>
+        <div class="field js-capital-search">
+          <label for="search" class="label">Capital name:</label>
+          <div class="control">
+            <input class="input" type="search" id="search" placeholder="Write the capital">
+          </div>
+        </div>
+        <div class="field js-region-search">
+          <label for="search" class="label">Region name:</label>
+          <div class="control">
+            <input class="input" type="search" id="search" placeholder="Write the region">
+          </div>
+        </div>
+        <div class="field js-currency-search">
+          <label for="search" class="label">Currency name:</label>
+          <div class="control">
+            <input class="input" type="search" id="search" placeholder="Write the currency">
+          </div>
+        </div>
+      </div>
+      <di class="columns is-justify-content-center pt-4">
+        <table class="table js-table-sortable">
+          <thead>
+            <tr>
+              <th class="js-th-name">Name&#x25be;</th>
+              <th class="js-th-capital">Capital&#x25be;</th>
+              <th class="js-th-region">Region&#x25be;</th>
+              <th class="js-th-currency">Currency&#x25b4;</th>
+            </tr>
+          </thead>
+          <tbody id="body">
+
+          </tbody>
+      </table>
+      </div>
+      <div class="columns is-justify-content-center pt-6 pb-6">
+        <button class="button is-link js-btn">Load More</button>
+      </div>
+      </div>
+    </section>
+    
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
